@@ -1,0 +1,18 @@
+{
+    "data_path": "./data/aaai2024-outlierpaper/work-outliers",
+    "save_path": "./baseline_models",
+    "method": "antoencoder",
+    "encoder_type": "cnn",
+    "if_normalize": true,
+    "device": "cuda:0",
+    "max_weekly_seq": 64,
+    "batch_size": 512,
+    "input_dim": 64,
+    "hidden_dim": 64,
+    "output_dim": 16,
+    "num_layers": 4,
+    "num_epochs": 100,
+    "lr": 0.0005,
+    "weight_decay_step_size": 50,
+    "weight_decay": 0.9
+}
